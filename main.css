@@ -1,0 +1,132 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    scroll-behavior: smooth;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+p, li {
+    font-size: 18px;
+}
+h1 {
+    font-size: 32px;
+}
+
+.header {
+    padding: 30px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #ffaeae;
+}
+.header__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list > li {
+    margin: 0 32px;
+    color: white;
+}
+.header__list > li:hover {
+    color: #7de3ff;
+    transition: 0.4s;
+}
+
+.about {
+    margin: 120px 0 20px;
+    color: white;
+    padding: 50px 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: #da8282;
+}
+.about__main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.about__photo {
+    width: 40%;
+}
+.about__title {
+    margin-bottom: 20px;
+}
+
+.awards {
+    padding: 36px 60px;
+    background: #ffaeae;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+.awards__main {
+    width: 40%;
+    background-color: white;
+    padding: 54px;
+    margin: 20px 20px;
+    border-radius: 5px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 150px;
+}
+.projects__main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.projects__project {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.projects__img {
+    border: #ffaeae 25px solid;
+    width: 40%;
+}
+.projects__img > img {
+    width: 100%;
+}
+.projects__title {
+    margin-bottom: 20px;
+}
+
+.contact {
+    padding: 25px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #ffaeae;
+}
+.contact__links > img {
+    margin-left: 5px;
+    width: 40px;
+}
+.contact__links > img:first-child {
+    margin-left: 0;
+}
